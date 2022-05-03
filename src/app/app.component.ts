@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'test3';
+  firstname:string='virat';
+  lastname:string='kohli';
+  gender:string="male";
+  age:number=31;
+image:string = 'assets/kohli.jpg';
+  h = 150;
+  w = 150;
+  ChangeData(){
+    this.firstname="ramgopal";
+    this.lastname="varma";
+    this.age=42;
+   this.gender="male";
+  }  
+
 }
